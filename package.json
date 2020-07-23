@@ -5,13 +5,16 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.25",
     "socket.io": "^2.3.0",
     "socket.io-client": "^2.3.0"
   },
   "devDependencies": {},
   "scripts": {
     "start": "node ./app.js",
-    "client": "node ./src/client/index.js"
+    "client1": "node src/client/client1.js",
+    "client2": "node src/client/client2.js"
   },
   "repository": {
     "type": "git",
